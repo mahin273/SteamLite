@@ -1,0 +1,14 @@
+go 1.23
+
+use (
+	./libs/errx
+	./libs/httpx
+	./libs/logx
+	./services/auth
+	./services/catalog
+	./services/recommendation
+	./services/streaming
+	./services/transcoder
+	./services/upload
+	./services/watch-history
+)

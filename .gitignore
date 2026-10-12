@@ -1,0 +1,47 @@
+# Binaries and build artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file overrides (if local-only, but in our monorepo we track go.work)
+# go.work.sum is tracked
+
+# Environment files
+.env
+*.env.local
+
+# Dependency directories
+vendor/
+
+# Scratch & temporary media
+scratch/
+tmp/
+*.m3u8
+*.m4s
+*.ts
+*.mp4
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation protection (only README.md is pushed)
+LearningDocs_*/
+Tutorial_*/
+StreamLite_designdoc.md
+
+# Personal Files
+*.md
+!README.md
