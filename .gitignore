@@ -22,6 +22,8 @@ vendor/
 # Scratch & temporary media
 scratch/
 tmp/
+logs/
+*.log
 *.m3u8
 *.m4s
 *.ts
